@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
 
+@available(iOS 17.0, *)
 public struct Noise: View {
     
     @State private var id: UUID = UUID()
@@ -110,6 +111,7 @@ public struct Noise: View {
     }
 }
 
+@available(iOS 17.0, *)
 extension Noise {
     
     public func seed(_ seed: Int) -> Noise {
@@ -139,6 +141,7 @@ extension Noise {
     }
 }
 
+@available(iOS 17.0, *)
 #Preview {
     Noise(style: .smooth)
 }

@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Noise",
     platforms: [
-        .iOS(.v17),
+        .iOS(.v16),
         .tvOS(.v17),
         .macOS(.v14),
         .visionOS(.v1)
